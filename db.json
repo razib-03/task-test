@@ -1,0 +1,454 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "title": "Annual KYC Update",
+      "description": "Update Know Your Customer documentation for compliance",
+      "assignee": "Maria Fernandes",
+      "dueDate": "2024-10-22",
+      "priority": "HIGH",
+      "status": "IN PROGRESS",
+      "tags": ["KYC", "Compliance"],
+      "phase": "Read-only (Phase 1)",
+      "statusBadge": "Due Soon",
+      "statusBadgeColor": "orange",
+      "initials": "MF"
+    },
+    {
+      "id": 2,
+      "title": "Quarterly Touchpoint - Q4",
+      "description": "Schedule and conduct quarterly review meeting with client",
+      "assignee": "Jacob Liu",
+      "dueDate": "2024-10-28",
+      "priority": "MEDIUM",
+      "status": "NEW",
+      "tags": ["Meeting", "Review"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "JL"
+    },
+    {
+      "id": 3,
+      "title": "RRIF Withdrawal Review",
+      "description": "Review and process RRIF withdrawal requests",
+      "assignee": "Olivia Chan",
+      "dueDate": "2024-10-21",
+      "priority": "HIGH",
+      "status": "IN PROGRESS",
+      "tags": ["Tax", "RRIF"],
+      "phase": "Read-only (Phase 1)",
+      "statusBadge": "Due Soon",
+      "statusBadgeColor": "orange",
+      "initials": "OC"
+    },
+    {
+      "id": 4,
+      "title": "Tax Planning Check-in",
+      "description": "Annual tax planning strategy review session",
+      "assignee": "Sarah Smith",
+      "dueDate": "2024-11-05",
+      "priority": "MEDIUM",
+      "status": "NEW",
+      "tags": ["Tax", "Planning"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "SS"
+    },
+    {
+      "id": 5,
+      "title": "Investment Portfolio Rebalancing",
+      "description": "Quarterly portfolio rebalancing based on target allocations",
+      "assignee": "David Chen",
+      "dueDate": "2024-10-25",
+      "priority": "HIGH",
+      "status": "NEW",
+      "tags": ["Investment", "Portfolio"],
+      "phase": null,
+      "statusBadge": "Due Soon",
+      "statusBadgeColor": "orange",
+      "initials": "DC"
+    },
+    {
+      "id": 6,
+      "title": "Estate Planning Documentation",
+      "description": "Complete estate planning documents and review with client",
+      "assignee": "Emily Wong",
+      "dueDate": "2024-11-10",
+      "priority": "LOW",
+      "status": "NEW",
+      "tags": ["Estate", "Legal"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "EW"
+    },
+    {
+      "id": 7,
+      "title": "Review IPS group creation",
+      "description": "Review Investment Policy Statement group creation process",
+      "assignee": "Sarah Smith",
+      "dueDate": "2024-10-15",
+      "priority": "HIGH",
+      "status": "NEW",
+      "tags": ["IPS", "Review"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "SS"
+    },
+    {
+      "id": 8,
+      "title": "Complete onboarding",
+      "description": "Complete client onboarding process",
+      "assignee": "Michael Johnson",
+      "dueDate": "2024-10-10",
+      "priority": "MEDIUM",
+      "status": "IN PROGRESS",
+      "tags": ["Onboarding"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "MJ"
+    },
+    {
+      "id": 9,
+      "title": "Review document",
+      "description": "Review client documentation for compliance",
+      "assignee": "Maria Rodriguez",
+      "dueDate": "2024-10-20",
+      "priority": "LOW",
+      "status": "COMPLETED",
+      "tags": ["Documents", "Review"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "MR"
+    },
+    {
+      "id": 10,
+      "title": "Update client profile",
+      "description": "Update client profile with latest information",
+      "assignee": "Robert Chen",
+      "dueDate": "2024-10-25",
+      "priority": "HIGH",
+      "status": "NEW",
+      "tags": ["Profile", "Update"],
+      "phase": null,
+      "statusBadge": "Overdue",
+      "statusBadgeColor": "red",
+      "initials": "RC"
+    },
+    {
+      "id": 11,
+      "title": "Prepare funding report",
+      "description": "Prepare quarterly funding report for review",
+      "assignee": "Patricia Williams",
+      "dueDate": "2024-10-30",
+      "priority": "MEDIUM",
+      "status": "NEW",
+      "tags": ["Funding", "Report"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "PW"
+    },
+    {
+      "id": 12,
+      "title": "Conduct meeting",
+      "description": "Conduct quarterly review meeting with client",
+      "assignee": "Thomas Anderson",
+      "dueDate": "2024-11-05",
+      "priority": "LOW",
+      "status": "IN PROGRESS",
+      "tags": ["Meeting"],
+      "phase": null,
+      "statusBadge": null,
+      "statusBadgeColor": null,
+      "initials": "TA"
+    }
+  ],
+  "clients": [
+    {
+      "id": 1,
+      "name": "Taylor Family Office",
+      "aum": "$50,000,000.00 CAD",
+      "aumValue": 50000000,
+      "type": "Household"
+    },
+    {
+      "id": 2,
+      "name": "Anderson Partnership",
+      "aum": "$45,000,000.00 CAD",
+      "aumValue": 45000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 3,
+      "name": "Rodriguez Holdings",
+      "aum": "$35,000,000.00 CAD",
+      "aumValue": 35000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 4,
+      "name": "The Johnson Estate",
+      "aum": "$24,000,000.00 CAD",
+      "aumValue": 24000000,
+      "type": "Household"
+    },
+    {
+      "id": 5,
+      "name": "Lewis Charitable Foundation",
+      "aum": "$21,000,000.00 CAD",
+      "aumValue": 21000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 6,
+      "name": "Thompson Enterprises",
+      "aum": "$20,000,000.00 CAD",
+      "aumValue": 20000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 7,
+      "name": "Lee Holdings",
+      "aum": "$19,000,000.00 CAD",
+      "aumValue": 19000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 8,
+      "name": "Chen Investments",
+      "aum": "$14,000,000.00 CAD",
+      "aumValue": 14000000,
+      "type": "Household"
+    },
+    {
+      "id": 9,
+      "name": "Harris Estate Planning",
+      "aum": "$9,000,000.00 CAD",
+      "aumValue": 9000000,
+      "type": "Household"
+    },
+    {
+      "id": 10,
+      "name": "Martinez Trust",
+      "aum": "$2,000,000.00 CAD",
+      "aumValue": 2000000,
+      "type": "Legal Entity"
+    },
+    {
+      "id": 11,
+      "name": "Sarah Smith",
+      "aum": "$1,500,000.00 CAD",
+      "aumValue": 1500000,
+      "type": "Individual"
+    },
+    {
+      "id": 12,
+      "name": "Michael Johnson",
+      "aum": "$2,200,000.00 CAD",
+      "aumValue": 2200000,
+      "type": "Individual"
+    },
+    {
+      "id": 13,
+      "name": "Maria Rodriguez",
+      "aum": "$3,100,000.00 CAD",
+      "aumValue": 3100000,
+      "type": "Individual"
+    },
+    {
+      "id": 14,
+      "name": "Robert Chen",
+      "aum": "$4,500,000.00 CAD",
+      "aumValue": 4500000,
+      "type": "Individual"
+    },
+    {
+      "id": 15,
+      "name": "Patricia Williams",
+      "aum": "$2,800,000.00 CAD",
+      "aumValue": 2800000,
+      "type": "Individual"
+    }
+  ],
+  "activities": [
+    {
+      "id": 1,
+      "clientName": "Sarah Smith",
+      "workflow": "IPS group creation",
+      "step": "Custodian approval",
+      "status": "Needs attention"
+    },
+    {
+      "id": 2,
+      "clientName": "Michael Johnson",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "Needs attention"
+    },
+    {
+      "id": 3,
+      "clientName": "Maria Rodriguez",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "Needs attention"
+    },
+    {
+      "id": 4,
+      "clientName": "Robert Chen",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "In progress"
+    },
+    {
+      "id": 5,
+      "clientName": "Patricia Williams",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "In progress"
+    },
+    {
+      "id": 6,
+      "clientName": "Thomas Anderson",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "In progress"
+    },
+    {
+      "id": 7,
+      "clientName": "Elizabeth Taylor",
+      "workflow": "Onboarding",
+      "step": "Custodian approval",
+      "status": "In progress"
+    },
+    {
+      "id": 8,
+      "clientName": "Carlos Martinez",
+      "workflow": "Funding",
+      "step": "Custodian approval",
+      "status": "In progress"
+    },
+    {
+      "id": 9,
+      "clientName": "Jennifer Lee",
+      "workflow": "Funding",
+      "step": "Document review",
+      "status": "Complete"
+    },
+    {
+      "id": 10,
+      "clientName": "William Thompson",
+      "workflow": "Funding",
+      "step": "Document review",
+      "status": "Complete"
+    },
+    {
+      "id": 11,
+      "clientName": "Jessica White",
+      "workflow": "Funding",
+      "step": "Document review",
+      "status": "Complete"
+    },
+    {
+      "id": 12,
+      "clientName": "Daniel Garcia",
+      "workflow": "Funding",
+      "step": "Document review",
+      "status": "Complete"
+    }
+  ],
+  "households": [
+    {
+      "id": 1,
+      "name": "The Smith Household",
+      "members": ["Sarah Smith", "John Smith"],
+      "totalAum": "$3,200,000.00 CAD",
+      "totalAumValue": 3200000,
+      "accountCount": 4
+    },
+    {
+      "id": 2,
+      "name": "The Johnson Family",
+      "members": ["Michael Johnson", "Lisa Johnson", "David Johnson"],
+      "totalAum": "$5,500,000.00 CAD",
+      "totalAumValue": 5500000,
+      "accountCount": 6
+    },
+    {
+      "id": 3,
+      "name": "Rodriguez Family Trust",
+      "members": ["Maria Rodriguez", "Carlos Rodriguez"],
+      "totalAum": "$8,200,000.00 CAD",
+      "totalAumValue": 8200000,
+      "accountCount": 5
+    },
+    {
+      "id": 4,
+      "name": "Chen Investment Group",
+      "members": ["Robert Chen", "Emily Chen"],
+      "totalAum": "$12,000,000.00 CAD",
+      "totalAumValue": 12000000,
+      "accountCount": 8
+    },
+    {
+      "id": 5,
+      "name": "Williams Estate",
+      "members": ["Patricia Williams"],
+      "totalAum": "$2,800,000.00 CAD",
+      "totalAumValue": 2800000,
+      "accountCount": 3
+    }
+  ],
+  "workflows": [
+    {
+      "id": 1,
+      "name": "Client Onboarding",
+      "description": "Standard client onboarding workflow",
+      "steps": ["Document Collection", "KYC Review", "Account Setup", "Custodian Approval", "Welcome Call"],
+      "status": "Active",
+      "assignedCount": 12
+    },
+    {
+      "id": 2,
+      "name": "IPS Group Creation",
+      "description": "Investment Policy Statement group creation process",
+      "steps": ["Risk Assessment", "Investment Goals", "Policy Draft", "Client Review", "Final Approval"],
+      "status": "Active",
+      "assignedCount": 8
+    },
+    {
+      "id": 3,
+      "name": "Account Funding",
+      "description": "Process for funding client accounts",
+      "steps": ["Transfer Request", "Document Review", "Compliance Check", "Fund Transfer", "Confirmation"],
+      "status": "Active",
+      "assignedCount": 15
+    },
+    {
+      "id": 4,
+      "name": "Annual Review",
+      "description": "Annual client review process",
+      "steps": ["Schedule Meeting", "Prepare Reports", "Conduct Review", "Update Documents", "Follow-up"],
+      "status": "Active",
+      "assignedCount": 25
+    },
+    {
+      "id": 5,
+      "name": "KYC Update",
+      "description": "Know Your Customer update workflow",
+      "steps": ["Request Documents", "Verify Identity", "Update Records", "Compliance Sign-off"],
+      "status": "Active",
+      "assignedCount": 10
+    }
+  ],
+  "summary": {
+    "totalAum": 345009987.98,
+    "totalClients": 450,
+    "totalHouseholds": 200
+  }
+}
